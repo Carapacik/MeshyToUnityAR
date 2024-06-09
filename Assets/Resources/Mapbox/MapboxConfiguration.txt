@@ -1,0 +1,1 @@
+{"AccessToken":"EXAMPLE_MAPBOX_PUBLIC_TOKEN_NOT_VALID","MemoryCacheSize":500,"FileCacheSize":25000,"DefaultTimeout":30,"AutoRefreshCache":false}
