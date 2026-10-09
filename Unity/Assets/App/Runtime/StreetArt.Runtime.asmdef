@@ -1,0 +1,13 @@
+{
+  "name": "StreetArt.Runtime",
+  "rootNamespace": "StreetArt",
+  "references": [
+    "Unity.InputSystem",
+    "Unity.XR.ARFoundation",
+    "Unity.XR.ARSubsystems",
+    "Unity.XR.CoreUtils",
+    "Unity.XR.Management",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "glTFast"
+  ]
+}

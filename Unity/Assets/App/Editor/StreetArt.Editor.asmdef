@@ -1,0 +1,20 @@
+{
+  "name": "StreetArt.Editor",
+  "rootNamespace": "StreetArt.Editor",
+  "includePlatforms": [
+    "Editor"
+  ],
+  "references": [
+    "StreetArt.Runtime",
+    "Unity.InputSystem",
+    "Unity.XR.ARFoundation",
+    "Unity.XR.ARSubsystems",
+    "Unity.XR.CoreUtils",
+    "Unity.XR.Management",
+    "Unity.XR.Management.Editor",
+    "Unity.XR.ARCore.Editor",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Unity.RenderPipelines.Universal.Editor"
+  ]
+}

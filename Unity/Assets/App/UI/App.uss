@@ -1,0 +1,66 @@
+.app { flex-grow: 1; background-color: white; color: rgb(51,36,36); -unity-font-definition: url("../Art/Fonts/Montserrat-Medium.ttf"); }
+.app.camera-view { background-color: transparent; }
+.safe { flex-grow: 1; }
+.header { flex-direction: row; justify-content: space-between; align-items: center; min-height: 48px; margin-bottom: 16px; }
+.brand { font-size: 23px; }
+.badge { background-color: rgb(253,232,230); border-radius: 10px; padding: 10px 14px; font-size: 17px; }
+.body, .canvas-body { flex-grow: 1; }
+.scroll { flex-grow: 1; }
+.hero, .title, .brand, .unity-button { -unity-font-definition: url("../Art/Fonts/Montserrat-Bold.ttf"); -unity-font-style: normal; }
+.hero { font-size: 38px; white-space: normal; margin-top: 12px; margin-bottom: 18px; }
+.eyebrow { font-size: 12px; color: rgb(121,102,102); margin-top: 18px; }
+.description { font-size: 16px; white-space: normal; margin-bottom: 12px; color: rgb(108,88,88); }
+.title { font-size: 21px; white-space: normal; margin-bottom: 8px; }
+.hint { font-size: 12px; color: rgb(121,102,102); white-space: normal; margin-top: 6px; margin-bottom: 8px; }
+.card { padding: 18px; border-width: 1px; border-color: rgb(237,223,222); border-radius: 18px; margin-bottom: 14px; }
+.unity-button { background-image: none; border-width: 0; border-radius: 12px; min-height: 48px; padding: 10px 14px; background-color: rgb(250,241,240); color: rgb(51,36,36); font-size: 16px; margin: 4px 0; white-space: normal; }
+.unity-button:hover { background-color: rgb(250,218,216); }
+.unity-button:disabled { opacity: .45; }
+.unity-button.primary { background-color: rgb(225,99,98); min-height: 54px; font-size: 18px; }
+.unity-button.secondary { border-width: 1px; border-color: rgb(225,99,98); background-color: white; }
+.row { flex-direction: row; }
+.row .unity-button { flex-grow: 1; margin-right: 4px; }
+.notice { font-size: 13px; white-space: normal; margin-top: 8px; }
+.camera-view .notice { background-color: white; border-radius: 8px; padding: 8px; }
+.status { padding: 12px; border-radius: 12px; background-color: white; }
+.status-text { font-size: 14px; white-space: normal; }
+.reticle { position: absolute; top: 35%; align-self: center; color: white; font-size: 34px; -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(51,36,36); }
+.controls { margin-top: auto; padding: 14px; border-radius: 18px; background-color: white; }
+.unity-slider { min-height: 38px; }
+.unity-base-slider__tracker { background-color: rgb(242,215,213); }
+.unity-base-slider__dragger { background-color: rgb(225,99,98); border-width: 0; width: 22px; height: 22px; border-radius: 11px; margin-top: -9px; }
+.unity-text-field__input { border-width: 1px; border-color: rgb(211,223,200); border-radius: 8px; padding: 10px; background-color: rgb(253,248,247); font-size: 15px; color: rgb(51,36,36); }
+.address { margin: 8px 0; }
+.prompt { height: 140px; margin-bottom: 12px; white-space: normal; }
+.unity-toggle { min-height: 44px; font-size: 15px; }
+
+.menu-body { align-items: stretch; }
+.menu-title { font-size: 30px; -unity-font-definition: url("../Art/Fonts/Montserrat-Bold.ttf"); -unity-text-align: middle-center; margin-top: 30px; }
+.menu-actions { flex-grow: 1; justify-content: center; }
+.menu-action { min-height: 90px; font-size: 25px; margin-bottom: 22px; }
+.settings-link { background-color: transparent; font-size: 14px; }
+.create-sheet { margin-top: auto; margin-bottom: auto; background-color: white; padding: 22px; border-radius: 20px; }
+.library-sheet { flex-grow: 1; background-color: white; padding: 16px; border-radius: 18px; }
+.camera-controls { margin-top: auto; }
+.transform-controls { background-color: white; border-radius: 12px; padding: 10px; }
+.confirm-title { color: white; font-size: 22px; -unity-text-align: middle-center; -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(51,36,36); margin: 12px 0; }
+.confirm-row { flex-direction: row; justify-content: space-between; }
+.round { width: 92px; height: 64px; border-radius: 32px; }
+.add-object { align-self: center; width: 64px; height: 64px; border-radius: 32px; font-size: 34px; background-color: rgb(225,99,98); color: white; margin-top: 12px; }
+.map { flex-grow: 1; overflow: hidden; background-color: rgb(242,237,231); position: relative; min-height: 200px; }
+.map-toolbar { flex-direction: row; justify-content: space-between; }
+.attribution { min-height: 30px; font-size: 11px; background-color: white; }
+.map-pin { position: absolute; width: 44px; height: 44px; border-radius: 22px; background-color: rgb(225,99,98); color: white; padding: 0; font-size: 12px; }
+.reticle { top: 50%; left: 50%; width: 34px; height: 34px; margin-left: -17px; margin-top: -17px; -unity-text-align: middle-center; }
+.menu-action.primary { background-color: rgb(225,99,98); min-height: 90px; font-size: 25px; }
+
+
+.artist-title { position: absolute; left: 50%; translate: -50% 0; }
+.model-grid { flex-direction: column; }
+.model-row { flex-direction: row; justify-content: space-between; width: 100%; flex-shrink: 0; }
+.model-card { width: 48%; flex-shrink: 0; padding: 10px; border-width: 1px; border-color: rgb(237,223,222); border-radius: 14px; margin-bottom: 14px; background-color: white; }
+.model-preview { width: 100%; height: 145px; margin-bottom: 10px; }
+.model-name { font-size: 17px; white-space: normal; -unity-font-definition: url("../Art/Fonts/Montserrat-Bold.ttf"); }
+.model-description { font-size: 13px; white-space: normal; min-height: 65px; margin-top: 6px; margin-bottom: 8px; color: rgb(108,88,88); }
+.model-card .unity-button { font-size: 14px; min-height: 48px; padding: 8px 4px; margin-top: auto; }
+.confirm-row .round { width: 46%; min-height: 64px; border-radius: 18px; font-size: 16px; }

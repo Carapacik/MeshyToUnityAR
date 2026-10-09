@@ -1,0 +1,11 @@
+services:
+  server:
+    build: ./Server
+    ports:
+      - "5052:8080"
+    environment:
+      Meshy__ApiKey: ${MESHY_API_KEY:-}
+    volumes:
+      - street-art-data:/data
+volumes:
+  street-art-data:
